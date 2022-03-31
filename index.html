@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-contet menu-contet">
+            <h1 onclick="getElementByid('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementByid('close-menu').checked = false;">
+                    <li><a href="#poemas">Intro</a></li>
+                    <li><a href="#grid-one">Grid</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">Grid</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-contet intro-content">
+        <div class="intro-text-content">
+        <h2>Arthur Morgan</h2>
+        <p>Nascido por volta de 1863 no norte dos EUA, Arthur é filho de Beatrice e Lyle Morgan, um pequeno criminoso e fora-da-lei. Sua mãe faleceu por causas desconhecidas quando Arthur ainda era criança. Em 1874, Lyle Morgan pai foi preso por furto e Arthur, com então 11 anos de idade, testemunhou a morte de seu pai. Apesar de não ter um bom relacionamento com seu genitor, Arthur manteve seu chapéu e guardou uma fotografia dele.</p>
+    </div>
+    <div class="intro-img">
+        <img src="assets/img/undraw_static_website_re_x70h.svg" alt="Uma imagem ilustrada de um homem 2D, com uma camisa branca olhando para a esquerda, aonde esta escrito HTML e CSS">
+    </div>
+</div>
+    </section>
+    
+    <section id="poemas" class="white-bg section">
+        <div class="main-contet top3-content">
+            <h2>Poemas</h2>
+            <p>O poeta se faz vidente por meio de um longo, imenso e refletido desregramento de todos os sentidos. Todas as formas de amor, de sentimento, de loucura; ele procura ele mesmo, ele esgota nele todos os venenos, para só guardar as quintessências.</p>
+            <p> Os poemas são pássaros que chegam
+                não se sabe de onde e pousam
+                no livro que lês.
+                Quando fechas o livro, eles alçam vôo
+                como de um alçapão.
+                Eles não têm pouso
+                nem porto;
+                alimentam-se um instante em cada
+                par de mãos e partem.
+                E olhas, então, essas tuas mãos vazias,
+                no maravilhado espanto de saberes
+                que o alimento deles já estava em ti...</p>
+            <p>O que eu odeio é que algum dia tudo se reduzirá a nada, os amores, os poemas. Acabaremos recheados de terra como um taco barato. Que coisa mais triste, tudo é tão triste - a gente passa a vida inteira feito bobo pra depois morrer que nem besta.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-contet grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aspernatur eligendi, asperiores illo animi optio non, maxime veniam sint corrupti, facilis labore unde reiciendis ipsum necessitatibus mollitia amet recusandae sed!</p>
+        </article>
+            <article>
+                <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aspernatur eligendi, asperiores illo animi optio non, maxime veniam sint corrupti, facilis labore unde reiciendis ipsum necessitatibus mollitia amet recusandae sed!</p>
+        </article>
+        <article>
+            <h3>Teste 2</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aspernatur eligendi, asperiores illo animi optio non, maxime veniam sint corrupti, facilis labore unde reiciendis ipsum necessitatibus mollitia amet recusandae sed!</p>
+    </article>
+        </div>
+        </div>
+        </section>
+
+        <section id="gallery" class="grid-one white-bg section">
+            <div class="main-contet grid-one-content">
+                <h2 class="grid-main-heading">Gallery</h2>
+                <p class="grid-description">Uma breve descrição.</p>
+                <div class="grid">
+                    <Div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                    </Div>
+                    <Div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                    </Div>
+                    <Div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+                    </Div>
+                    <Div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                    </Div>
+                    <Div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                    </Div>
+                    <Div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+                    </Div>
+            </div>
+            </div>
+            </section>
+
+
+            <section id="grid-two" class="grid-one main-bg section">
+                <div class="main-contet grid-one-content">
+                    <h2 class="grid-main-heading">My Grid</h2>
+                    <p class="grid-description">Uma breve descrição.</p>
+                    <div class="grid">
+                        <article>
+                            <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aspernatur eligendi, asperiores illo animi optio non, maxime veniam sint corrupti, facilis labore unde reiciendis ipsum necessitatibus mollitia amet recusandae sed!</p>
+                </article>
+                    <article>
+                        <h3>Teste 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aspernatur eligendi, asperiores illo animi optio non, maxime veniam sint corrupti, facilis labore unde reiciendis ipsum necessitatibus mollitia amet recusandae sed!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aspernatur eligendi, asperiores illo animi optio non, maxime veniam sint corrupti, facilis labore unde reiciendis ipsum necessitatibus mollitia amet recusandae sed!</p>
+            </article>
+                </div>
+                </div>
+                </section>
+
+                <section id="Pricing" class="white-bg section">
+                    <div class="main-contet top3-content">
+                        <h2>Pricing</h2>
+                        <p>Você sabe, tudo o que importava para mim era lealdade. Era tudo que eu conhecia. Foi tudo em que eu sempre acreditei ...</p>
+                        <p> Lutei por muito tempo para sobreviver, e não importa o que aconteça, você continua encontrando algo pelo que lutar.</p>
+
+                        <div class="responsive-table"></div>
+                        <table>
+                            <caption>Pricing table</caption>
+
+                            <thead>
+                                <tr>
+                                <th>Title 1</th>
+                                <th>Title 2</th>
+                                <th>Title 3</th>
+                                <th>Title 4</th>
+                                <th>Title 5</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>content 1</td>
+                                    <td>content 2</td>
+                                    <td>content 3</td>
+                                    <td>content 3</td>
+                                    <td>content 3</td>
+                                </tr>
+                                <tr>
+                                    <td>content 1</td>
+                                    <td>content 2</td>
+                                    <td>content 3</td>
+                                    <td>content 3</td>
+                                    <td>content 3</td>
+                                </tr>
+                                <tr>
+                                    <td>content 1</td>
+                                    <td>content 2</td>
+                                    <td>content 3</td>
+                                    <td>content 3</td>
+                                    <td>content 3</td>
+                                </tr>
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td >testando</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="Contact" class="intro main-bg section">
+                    <div class="main-contet intro-content">
+                    <div class="intro-text-content">
+                    <h2>Daryl Dixon</h2>
+                    <p>Daryl cresceu nas montanhas do norte da Geórgia com seu irmão Merle e foi treinado na arte da caça a partir de uma idade precoce. Um dia, Daryl saiu para brincar com as crianças da vizinhança que tinham bicicletas, e enquanto brincava com seus amigos ele começa a ouvir o som de sirenes se aproximando remotamente à distância. As crianças com suas bicicletas correram na frente para descobrir o que estava acontecendo e Daryl tentou alcança-los correndo a pé, mas não os alcançou. Virando a esquina, o pequeno Daryl vê todas as crianças, e até mesmo todo o bairro, olhando a sua casa pegar fogo. Sua mãe morreu queimada por fumar na cama, e Daryl sofre ao saber que ela estava carbonizada.</p>
+                </div>
+                <div class="intro-img">
+                    <img src="assets\img\undraw_a_day_off_re_hedl.svg" alt="Uma imagem ilustrada de um homem 2D, com uma camisa branca olhando para a esquerda, aonde esta escrito HTML e CSS">
+                </div>
+
+                <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First-name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+
+                        <div class="form-group">
+                            <label for="last-name">Lirst-name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+
+                            <div class="form-group">
+                                <label for="last-name">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Your Email">
+     
+                                <div class="form-group full-width">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+     
+                                    <div class="form-group full-width">
+                                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+            </div>
+                </section>
+            
+
+                <footer id="footer" class="footer white-bg">
+                    <p>
+                        Espeto que Goste :D, Feito por Matheus Alberto Batista
+                    </p>
+                </footer>
+
+                <a class="back-to-top" href="#">❱</a>
+</body>
+</html>
